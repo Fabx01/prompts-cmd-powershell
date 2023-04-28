@@ -5,6 +5,8 @@
 
   ![](https://github.com/Fabx01/prompts-cmd-powershell/blob/main/cmd%20(arp%20-a).png)
   
+  -------------------------------------------------------------------------
+  
  **CMD - [ ipconfig ]** comando usado para exibir informações de configuração de rede do computador local. Ele permite que os usuários visualizem informações como endereço IP, máscara de sub-rede, gateway padrão e outros detalhes de rede.  
  
  Ao executar o comando "ipconfig" sem nenhum argumento adicional, ele exibe as informações de configuração de todos os adaptadores de rede disponíveis no computador. Alguns dos argumentos mais comuns usados com o comando "ipconfig" incluem:
@@ -16,3 +18,6 @@
 
 Em geral, o comando "ipconfig" é uma ferramenta útil para solucionar problemas de rede, como problemas de conectividade, endereços IP conflitantes ou problemas de DNS.
   
+ ![](https://github.com/Fabx01/prompts-cmd-powershell/blob/main/IPCONFIG.png)
+ 
+ ------------------------------------------------------------------
