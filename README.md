@@ -56,9 +56,9 @@ echo $env:Path
 ```
 * **"path" com "setx" (diferença entre o comando "set" e o comando "setx" no Windows é que o comando "set" define uma variável de ambiente apenas para a sessão atual do prompt de comando, enquanto o comando "setx" define uma variável de ambiente permanentemente no sistema**
 ```
- setx PATH %PATH:;E:\partables\PortableGit\bin=% ( setx adiciona a variavel permanente )
+ setx path=%path%;E:\partables\PortableGit\bin=%( setx adiciona a variavel permanente )
  
- set PATH %PATH:;E:\partables\PortableGit\bin=% ( set adiciona a variavel temporaria )
+ set path=%path%;E:\partables\PortableGit\bin=% ( set adiciona a variavel temporaria )
  
 ```
 
