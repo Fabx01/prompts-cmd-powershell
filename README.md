@@ -90,6 +90,18 @@ echo $env:Path
 
 ```
 
+-----------------------------------------------------------------
+
+**CMD - [ cd /d C:\ ] mudar de disco do disco E: para o disco C: 
+
+* Para mudar de disco usando o prompt de comando no Windows, você pode usar o comando "cd" com a opção "/d" para mudar para o diretório raiz do disco desejado. Por exemplo, para mudar do disco "E:" para o disco "C:", você pode digitar o seguinte comando:
+```
+E:\>cd /d C:\
+
+C:\>
+
+```
+
 
 
 
