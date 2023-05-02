@@ -49,6 +49,8 @@ echo $env:Path
 * Para adicionar um novo caminho à variável "path" (de ambiente) (  "path", é usada pelo sistema operacional para localizar arquivos executáveis)
 ```
  set path=%path%;C:\novo\caminho set path
+ 
+ set path=%path%;E:\partables\node ( adicionar a variavel do node que esta no pendrive )
 ```
 * Exibe os caminhos da variável "path" (de ambiente)
 ```
