@@ -21,3 +21,15 @@ Em geral, o comando "ipconfig" é uma ferramenta útil para solucionar problemas
  ![](https://github.com/Fabx01/prompts-cmd-powershell/blob/main/IPCONFIG.png)
  
  ------------------------------------------------------------------
+
+ ***POWER SHELL - Adicionar variavel de ambiente temporaria**
+ 
+ * adicionar
+ ```javascript
+ $env:Path += ";E:\partables\node"
+```
+* visualizar
+```javascript
+echo $env:Path
+
+```
