@@ -50,8 +50,18 @@ echo $env:Path
 ```
  set path=%path%;C:\novo\caminho set path
  
- set path=%path%;E:\partables\node ( adicionar a variavel do node que esta no pendrive )
+ set path=%path%;E:\partables\node ( adicionar a variavel do node que esta no pendrive ) 
+ setx PATH "%PATH:;E:\partables\PortableGit\bin=%" ( sex
+
 ```
+* **"path" com "setx" (diferença entre o comando "set" e o comando "setx" no Windows é que o comando "set" define uma variável de ambiente apenas para a sessão atual do prompt de comando, enquanto o comando "setx" define uma variável de ambiente permanentemente no sistema**
+```
+ setx PATH %PATH:;E:\partables\PortableGit\bin=% ( setx adiciona a variavel permanente )
+ 
+ set PATH %PATH:;E:\partables\PortableGit\bin=% ( set adiciona a variavel temporaria )
+ 
+```
+
 * Exibe os caminhos da variável "path" (de ambiente)
 ```
   set path
